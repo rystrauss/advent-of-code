@@ -1,7 +1,5 @@
-from collections import Counter, defaultdict
+from collections import defaultdict
 from copy import deepcopy
-
-from tqdm import tqdm
 
 
 def apply_insertions(polymer, templates, steps):
